@@ -1,0 +1,31 @@
+.number{
+	background: radial-gradient(circle, lightblue, blue);
+	float: left;
+	width: 20%;
+	opacity: 30%;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 32px;
+	padding-bottom: 31px;
+	border: solid black 2px;
+	height: 128px;
+}
+.playerDetails{
+	border: 5px solid white;
+	overflow: auto;
+	height: 140px;
+}
+.pData1{
+	text-align: center;
+	background: linear-gradient(to right, rgb(51, 153, 255), lightblue);
+	float: left;
+	width: 50%;
+	height: 50%;
+	font-size: 20px;
+	border: solid black 2px
+}
+.pData2{
+	float: left;
+	width: 80%;
+}

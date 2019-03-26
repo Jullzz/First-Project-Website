@@ -1,0 +1,35 @@
+.nav-item
+{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: white;
+  background-color: purple;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar {
+  margin-bottom: 25px;
+  background-color: purple;
+}
+
+.navbar-nav li .nav-link
+{
+  color: white;
+}
+.nav-item:hover {
+  background-color:grey;
+}
+
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@keyframes roll {
+  to {margin-left: 1000px;}
+}

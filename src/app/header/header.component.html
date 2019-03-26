@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-md bg-success navbar-light sticky-top" id="navbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- <a class="navbar-brand" routerLink="">
+    <img src="../../assets/logo.png" id="navLogo"/>
+  </a> -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <a routerLink="">
+        <img id="leagueLogo" src="https://www.premierleague.com/resources/ver/i/elements/premier-league-logo-header.png">
+    </a>
+  <ul class="nav">
+    <li class="item">
+      <a class="nav-link" id="leftmost" routerLink="/MainLadder">Ladder</a>
+    </li>
+    <li class="item">
+      <a class="nav-link" routerLink="/RecentGames">Recent Games</a>
+    </li>
+    <li class="item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Teams</a>
+
+      <div class="dropdown-menu" >
+        <a class="item" routerLink="/ViewTeam/{{team.id}}" *ngFor="let team of myTeam"> {{team.name}} </a>
+        <!--<a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>-->
+      </div>
+    </li>
+    <li class="item">
+      <a class="nav-link" routerLink="/Head2Head">Head 2 Head</a>
+    </li>
+  </ul>
+  <a class="navbar-brand" routerLink="">
+        <div id="logo">
+    <img src="../../assets/logo.png" id="navLogo"/>
+    </div>
+  </a>
+</div>
+</nav>

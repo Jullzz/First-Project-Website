@@ -1,0 +1,89 @@
+#teamMain
+{
+  background-color: white;
+  padding: 15px;
+}
+
+#teamRank
+{	padding-top: 37px;
+  	padding-bottom: 36px;
+	text-align: center;
+	float:left;
+	/* background: linear-gradient(to left,lightblue, blue); */
+	width: 20%;
+  height: 200px;
+	/* border-radius: 25px;
+	border: solid green 2px; */
+
+}
+#teamRank h2{
+	font-size: 6em;
+}
+#teamName
+{
+	/* background: linear-gradient(to right,lightblue, blue);
+	border-radius: 25px;
+	border: solid green 2px; */
+	padding-top: 20px;
+  	padding-bottom: 75px;
+	font-size: 3em;
+	width: 60%;
+	float: left;
+	text-align: center;
+	font-style: "Times";
+}
+
+#teamName span
+{
+  display: inline-block;
+    font-size: 1.5em;
+    margin-top: 10px;
+    /* padding-left: 15%; */
+}
+
+#emptyHeart:hover
+{
+  cursor: pointer;
+}
+
+#teamName h1
+{
+  font-size: 1em;
+}
+
+#teamInfo
+{
+	height: 200px;
+}
+#mainCrest
+{
+  float: left;
+  max-height: 200px;
+  width: 20%;
+}
+
+
+/* #fullHeart
+{
+  display: none;
+}
+
+#fullHeart:hover
+{
+  display: inline;
+}
+
+#fullHeart:hover + #emptyHeart
+{
+  display: none;
+}
+
+#emptyHeart:hover
+{
+  display: none;
+}
+
+#emptyHeart:hover + #fullHeart
+{
+  display: inline;
+} */
